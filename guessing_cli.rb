@@ -14,6 +14,5 @@ def run_guessing_game
     if input. == Integer && input != computer
       puts "The computer guessed #{computer}."
     end
-    end
   end
 end 
