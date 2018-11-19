@@ -10,6 +10,7 @@ def run_guessing_game
     end
     if input == computer
       puts "You guessed the correct number!"
+      break
     else
       puts "The computer guessed #{computer}."
     end
