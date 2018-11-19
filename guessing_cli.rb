@@ -5,7 +5,7 @@ def run_guessing_game
     computer = rand(1..6)
     input = gets.chomp()
     if input == "exit"
-      puts "Goodbye"
+      puts "Goodbye!"
       break
     end
     if input == computer
