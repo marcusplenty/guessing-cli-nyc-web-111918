@@ -6,7 +6,8 @@ def run_guessing_game
     input = gets.chomp()
     if input == computer
       puts "You guessed the correct number!"
-    elsif input.class? == Integer && input != computer
+    end
+    if input. == Integer && input != computer
       puts "The computer guessed #{computer}."
     elsif input == "exit"
       puts "Goodbye!"
